@@ -559,6 +559,42 @@
             ]
         },
         {
+            "pakku_id": "sRedVX8rJi9gBr8C",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "baguettelib"
+            },
+            "name": {
+                "curseforge": "BaguetteLib"
+            },
+            "id": {
+                "curseforge": "1264423"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "baguettelib-1.21.1-NeoForge-1.1.5.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7287/507/baguettelib-1.21.1-NeoForge-1.1.5.jar",
+                    "id": "7287507",
+                    "parent_id": "1264423",
+                    "hashes": {
+                        "sha1": "f4dc59ccb7767daa4ff22a7e8b59cf937efb9cdd",
+                        "md5": "f59c5654f8478eea4fef21873d49a0ae"
+                    },
+                    "required_dependencies": [],
+                    "size": 66286,
+                    "date_published": "2025-12-02T22:51:34.433Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "kFKYoemL2xyxJ2O9",
             "type": "MOD",
             "slug": {
@@ -639,6 +675,7 @@
         {
             "pakku_id": "yd1ILzNefWbNI18z",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "better-ping-display"
             },
@@ -1051,6 +1088,78 @@
                     ],
                     "size": 1247975,
                     "date_published": "2025-09-08T11:09:04.930Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "eVpUezYa4rDe5xPA",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cosmetic-armor-reworked"
+            },
+            "name": {
+                "curseforge": "Cosmetic Armor Reworked"
+            },
+            "id": {
+                "curseforge": "237307"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cosmeticarmorreworked-1.21.1-v1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5610/814/cosmeticarmorreworked-1.21.1-v1-neoforge.jar",
+                    "id": "5610814",
+                    "parent_id": "237307",
+                    "hashes": {
+                        "sha1": "5f1e699cd0888b857ec63f01adaeb3571848bfea",
+                        "md5": "881eb025d54ca01165c115a38a8d48c4"
+                    },
+                    "required_dependencies": [],
+                    "size": 92722,
+                    "date_published": "2024-08-09T10:07:57.437Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "UJgOEBI5Y5tHPHbh",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "curios"
+            },
+            "name": {
+                "curseforge": "Curios API (Forge/NeoForge)"
+            },
+            "id": {
+                "curseforge": "309927"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "curios-neoforge-9.5.1+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6529/130/curios-neoforge-9.5.1+1.21.1.jar",
+                    "id": "6529130",
+                    "parent_id": "309927",
+                    "hashes": {
+                        "sha1": "418fcd42e3a7844c9bdc71c9b6401fdb3894e0c4",
+                        "md5": "e8f0a3574264bb202c153b90293dc84c"
+                    },
+                    "required_dependencies": [],
+                    "size": 410690,
+                    "date_published": "2025-05-14T13:34:49.793Z"
                 }
             ]
         },
@@ -1730,6 +1839,7 @@
         {
             "pakku_id": "dPnEZgfetZ5y9MVb",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "fast-ip-ping"
             },
@@ -1887,6 +1997,7 @@
                 "wZiBUNVk9Ktdkn9s"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "fastquit-forge"
             },
@@ -2044,6 +2155,7 @@
         {
             "pakku_id": "2i94iLFU1S33ybGG",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "fusion-connected-textures"
             },
@@ -2147,6 +2259,88 @@
                     "required_dependencies": [],
                     "size": 61377,
                     "date_published": "2024-10-18T12:40:20.117Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "41SovHLOs1cTZJEO",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "gravestone-mod"
+            },
+            "name": {
+                "curseforge": "GraveStone Mod"
+            },
+            "id": {
+                "curseforge": "238551"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "gravestone-neoforge-1.21.1-1.0.35.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7099/728/gravestone-neoforge-1.21.1-1.0.35.jar",
+                    "id": "7099728",
+                    "parent_id": "238551",
+                    "hashes": {
+                        "sha1": "4859c0166263b15a08f0ae0d7df5d6278a58e71d",
+                        "md5": "89dfe8df6395582db162a517198b53a8"
+                    },
+                    "required_dependencies": [],
+                    "size": 318685,
+                    "date_published": "2025-10-12T17:07:29.750Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Gfaurq8JcrDQD3aH",
+            "pakku_links": [
+                "UJgOEBI5Y5tHPHbh",
+                "41SovHLOs1cTZJEO",
+                "sRedVX8rJi9gBr8C"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "gravestone-x-curios-api-compat"
+            },
+            "name": {
+                "curseforge": "Gravestone x Curios API Compat"
+            },
+            "id": {
+                "curseforge": "1139062"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "gravestonecurioscompat-1.21.1-NeoForge-3.0.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6555/981/gravestonecurioscompat-1.21.1-NeoForge-3.0.1.jar",
+                    "id": "6555981",
+                    "parent_id": "1139062",
+                    "hashes": {
+                        "sha1": "6af464b8bc270c8d21fca7022051d42b6f736484",
+                        "md5": "27de362d307c23308d667314d2048117"
+                    },
+                    "required_dependencies": [
+                        "309927",
+                        "238551",
+                        "1264423"
+                    ],
+                    "size": 14841,
+                    "date_published": "2025-05-22T16:09:39.083Z"
                 }
             ]
         },
@@ -2350,6 +2544,7 @@
                 "S97j5jynqHLfMuww"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "irisshaders"
             },
@@ -2968,6 +3163,7 @@
         {
             "pakku_id": "GRR0MVshWDVZc8SO",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "modern-ui"
             },
@@ -3041,6 +3237,7 @@
         {
             "pakku_id": "W3l5JqGNwkxj85vD",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "nolijium"
             },
@@ -3640,6 +3837,7 @@
         {
             "pakku_id": "S97j5jynqHLfMuww",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "sodium"
             },
@@ -3795,6 +3993,7 @@
         {
             "pakku_id": "Pvp5rIOsU9O46VxE",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "untranslated-items"
             },
@@ -3835,6 +4034,7 @@
                 "Pvp5rIOsU9O46VxE"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "untranslateditems-alsofluidsandchemicals"
             },
