@@ -31,7 +31,7 @@ jobs:
         with:
           path: |
             build/.cache
-          key: ${{ hashFiles("pakku-lock.json") }}
+          key: ${{ hashFiles('pakku-lock.json') }}
 
       - name: Rename Packs
         shell: bash
