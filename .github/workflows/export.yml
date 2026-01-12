@@ -26,11 +26,17 @@ jobs:
       - name: export pack
         run: pakku export
 
+      - name: Rename Packs
+        shell: bash
+        run: |
+          mv build/curseforge/{, CLIENTPACK-}tech-${{ github.ref_name }}.zip
+          mv build/serverpack/{, SERVERPACK-}tech-${{ github.ref_name }}.zip
+
       - name: Release Packs
         uses: softprops/action-gh-release@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           files: |
-            build/curseforge/tech-${{ github.ref_name }}.zip
-            build/serverpack/tech-${{ github.ref_name }}.zip
+            build/curseforge/CLIENTPACK-tech-${{ github.ref_name }}.zip
+            build/serverpack/SERVERPACK-tech-${{ github.ref_name }}.zip
