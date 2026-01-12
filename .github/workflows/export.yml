@@ -33,3 +33,4 @@ jobs:
         with:
           files: |
             build/curseforge/tech-${{ github.ref_name }}.zip
+            build/serverpack/tech-${{ github.ref_name }}.zip
