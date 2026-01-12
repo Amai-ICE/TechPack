@@ -1,36 +1,36 @@
 {
-    "name": "tech",
-    "version": "0.0.1",
-    "overrides": [
-        "kubejs"
-    ],
-    "projects": {
-        "untranslated-items": {
-            "side": "CLIENT"
-        },
-        "untranslateditems-alsofluidsandchemicals": {
-            "side": "CLIENT"
-        },
-        "irisshaders": {
-            "side": "CLIENT"
-        },
-        "nolijium": {
-            "side": "CLIENT"
-        },
-        "sodium": {
-            "side": "CLIENT"
-        },
-        "modern-ui": {
-            "side": "CLIENT"
-        },
-        "better-ping-display": {
-            "side": "CLIENT"
-        },
-        "fusion-connected-textures": {
-            "side": "CLIENT"
-        },
-        "fast-ip-ping": {
-            "side": "CLIENT"
-        }
+  "name": "tech",
+  "version": "1.0.0",
+  "overrides": [
+    "kubejs"
+  ],
+  "projects": {
+    "untranslated-items": {
+      "side": "CLIENT"
+    },
+    "untranslateditems-alsofluidsandchemicals": {
+      "side": "CLIENT"
+    },
+    "irisshaders": {
+      "side": "CLIENT"
+    },
+    "nolijium": {
+      "side": "CLIENT"
+    },
+    "sodium": {
+      "side": "CLIENT"
+    },
+    "modern-ui": {
+      "side": "CLIENT"
+    },
+    "better-ping-display": {
+      "side": "CLIENT"
+    },
+    "fusion-connected-textures": {
+      "side": "CLIENT"
+    },
+    "fast-ip-ping": {
+      "side": "CLIENT"
     }
+  }
 }
