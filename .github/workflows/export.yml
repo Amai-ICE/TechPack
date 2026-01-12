@@ -26,6 +26,12 @@ jobs:
       - name: export pack
         run: pakku export
 
+      - name: Cache MOD Jar
+        uses: actions/cache@v4
+        with:
+          path: |
+            build/.cache
+
       - name: Rename Packs
         shell: bash
         run: |
