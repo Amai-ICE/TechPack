@@ -2,6 +2,7 @@
 !*/
 
 !LICENSE
+!.github/**
 
 !pakku.json
 !pakku-lock.json
