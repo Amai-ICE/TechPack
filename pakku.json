@@ -1,39 +1,39 @@
 {
-    "name": "tech",
-    "version": "v1.0.3",
-    "overrides": [
-        "kubejs"
-    ],
-    "projects": {
-        "untranslated-items": {
-            "side": "CLIENT"
-        },
-        "untranslateditems-alsofluidsandchemicals": {
-            "side": "CLIENT"
-        },
-        "irisshaders": {
-            "side": "CLIENT"
-        },
-        "nolijium": {
-            "side": "CLIENT"
-        },
-        "sodium": {
-            "side": "CLIENT"
-        },
-        "modern-ui": {
-            "side": "CLIENT"
-        },
-        "better-ping-display": {
-            "side": "CLIENT"
-        },
-        "fusion-connected-textures": {
-            "side": "CLIENT"
-        },
-        "fast-ip-ping": {
-            "side": "CLIENT"
-        },
-        "fastquit-forge": {
-            "side": "CLIENT"
-        }
+  "name": "tech",
+  "version": "v1.0.4",
+  "overrides": [
+    "kubejs"
+  ],
+  "projects": {
+    "untranslated-items": {
+      "side": "CLIENT"
+    },
+    "untranslateditems-alsofluidsandchemicals": {
+      "side": "CLIENT"
+    },
+    "irisshaders": {
+      "side": "CLIENT"
+    },
+    "nolijium": {
+      "side": "CLIENT"
+    },
+    "sodium": {
+      "side": "CLIENT"
+    },
+    "modern-ui": {
+      "side": "CLIENT"
+    },
+    "better-ping-display": {
+      "side": "CLIENT"
+    },
+    "fusion-connected-textures": {
+      "side": "CLIENT"
+    },
+    "fast-ip-ping": {
+      "side": "CLIENT"
+    },
+    "fastquit-forge": {
+      "side": "CLIENT"
     }
+  }
 }
