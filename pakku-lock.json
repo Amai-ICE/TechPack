@@ -8,6 +8,39 @@
     },
     "projects": [
         {
+            "pakku_id": "7PcrRK5SLei0n9kk",
+            "type": "RESOURCE_PACK",
+            "slug": {
+                "curseforge": "ae2-blackout"
+            },
+            "name": {
+                "curseforge": "AE2 Blackout"
+            },
+            "id": {
+                "curseforge": "1060372"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "AE2Blackout-V1.2.5.zip",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7225/241/AE2Blackout-V1.2.5.zip",
+                    "id": "7225241",
+                    "parent_id": "1060372",
+                    "hashes": {
+                        "sha1": "245d111f6d3f9d512b3beabb64a859696b364452",
+                        "md5": "4438f4138c7fef799b06b03cb69afd7a"
+                    },
+                    "required_dependencies": [],
+                    "size": 591095,
+                    "date_published": "2025-11-15T16:26:07.643Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Ft6bd5H1BRxFZK1p",
             "pakku_links": [
                 "IBRu9zw5dt4utCNz",
@@ -1958,6 +1991,51 @@
             ]
         },
         {
+            "pakku_id": "TU0xOlPjClUfuH06",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "fastboot"
+            },
+            "name": {
+                "curseforge": "FastBoot"
+            },
+            "id": {
+                "curseforge": "1030285"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "fastboot-1.21.x-v1.3neo.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.8",
+                        "1.21.5",
+                        "1.21.4",
+                        "1.21.1",
+                        "1.21.6",
+                        "1.21.3",
+                        "1.21.7",
+                        "1.21.2"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6998/687/fastboot-1.21.x-v1.3neo.jar",
+                    "id": "6998687",
+                    "parent_id": "1030285",
+                    "hashes": {
+                        "sha1": "1c9101baf7e4b111fc55e0b5a8687e67be2f626c",
+                        "md5": "e7682cf7c0bb064251c498f3c289f59d"
+                    },
+                    "required_dependencies": [],
+                    "size": 9085,
+                    "date_published": "2025-09-15T05:27:37.003Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "QozuCfLGA3V3ol5H",
             "type": "MOD",
             "slug": {
@@ -3387,6 +3465,44 @@
                     "required_dependencies": [],
                     "size": 569818,
                     "date_published": "2025-11-08T20:04:57.983Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "5EN8v4Wniw9a65gE",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "mouse-tweaks"
+            },
+            "name": {
+                "curseforge": "Mouse Tweaks"
+            },
+            "id": {
+                "curseforge": "60089"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5637/846/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+                    "id": "5637846",
+                    "parent_id": "60089",
+                    "hashes": {
+                        "sha1": "6dae57f4f50f7808d2ed9a18f6cd1c0d4640c6bc",
+                        "md5": "4ab6e808a59fdebecfbc92438b85b470"
+                    },
+                    "required_dependencies": [],
+                    "size": 73938,
+                    "date_published": "2024-08-17T15:55:16.403Z"
                 }
             ]
         },
