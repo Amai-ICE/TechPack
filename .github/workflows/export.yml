@@ -5,6 +5,9 @@ on:
     tags:
       - v*
 
+env:
+  PACK_NAME: tech
+
 jobs:
   release:
     name: Release
@@ -36,8 +39,8 @@ jobs:
       - name: Rename Packs
         shell: bash
         run: |
-          mv build/curseforge/{,CLIENTPACK-}tech-${{ github.ref_name }}.zip
-          mv build/serverpack/{,SERVERPACK-}tech-${{ github.ref_name }}.zip
+          mv build/curseforge/{,CLIENTPACK-}${{ env.PACK_NAME }}-${{ github.ref_name }}.zip
+          mv build/serverpack/{,SERVERPACK-}${{ env.PACK_NAME }}-${{ github.ref_name }}.zip
 
       - name: Release Packs
         uses: softprops/action-gh-release@v2
@@ -45,5 +48,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           files: |
-            build/curseforge/CLIENTPACK-tech-${{ github.ref_name }}.zip
-            build/serverpack/SERVERPACK-tech-${{ github.ref_name }}.zip
+            build/curseforge/CLIENTPACK-${{ env.PACK_NAME }}-${{ github.ref_name }}.zip
+            build/serverpack/SERVERPACK-${{ env.PACK_NAME }}-${{ github.ref_name }}.zip
